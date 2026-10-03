@@ -1,0 +1,16 @@
+  169  cd coding-cafe\n
+  170  cd ~\nmkdir coding-cafe\ncd coding-cafe\nmkdir week01\nmkdir week02\ntouch README.md\ntouch week02/notes.md\ncd ~\nls coding-cafe/week02
+  171  cd ~/coding-cafe\ncp README.md README-backup.md\nmv README-backup.md week01/\ncd week01\nmv README-backup.md old-readme.md\nls\nrm old-readme.md
+  172  cd ~/coding-cafe\necho $PATH
+  173  which python3
+  174  pyton3
+  175  cd ~/coding-cafe\npython3 -m venv .venv\nls\nls -a
+  176  source .venv/bin/activate
+  177  which python3
+  178  pip list\npip install requests\npip list
+  179  deactivate\nwhich python3
+  180  man ls
+  181  man man
+  182  python3
+  183  cd ~/coding-cafe\nhistory > week02/lab01-log.txt
+  184  cd ~/coding-cafe
